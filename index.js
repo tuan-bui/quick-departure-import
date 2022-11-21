@@ -9,6 +9,8 @@ const request = require('request');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 const CONFIG = {
+  HOSTNAME: "",
+  TOKEN: "",
 };
 
 const headers = {
